@@ -59,14 +59,6 @@ https://allloan-ai.onrender.com/api/stocks
 
 Ensure the backend is running or replace it with your API.
 
-## 🧪 Running Tests
-
-To run tests, use:
-
-```sh
-npm test
-```
-
 ## 🤝 Contributing
 
 1. Fork the repository.
