@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://allloan-ai.onrender.com/";
 
 export const fetchStocks = async () => {
   const response = await fetch(`${BASE_URL}/api/stocks`);
