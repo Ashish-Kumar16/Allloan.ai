@@ -10,8 +10,7 @@ export const getStockData = createAsyncThunk(
   "stocks/getStockData",
   async ({ stockId, duration }) => {
     const response = await fetchStockData(stockId, duration);
-    console.log("API Response in Redux:", response); // ✅ DEBUG
-    return response.data; // ✅ Ensure you return `response.data`
+    return response.data; 
   },
 );
 

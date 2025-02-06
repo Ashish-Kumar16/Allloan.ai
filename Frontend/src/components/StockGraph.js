@@ -35,9 +35,6 @@ const StockGraph = () => {
 
   useEffect(() => {
     if (!selectedStock || !selectedDuration) return;
-
-    console.log("Fetching stock data for:", selectedStock.id, selectedDuration); // ✅ DEBUG
-
     setLoading(true);
     setError(null);
     setGraphData([]); 
